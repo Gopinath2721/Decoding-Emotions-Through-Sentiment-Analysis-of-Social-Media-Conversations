@@ -1,8 +1,8 @@
-🚀 Decoding Emotions Through Sentiment Analysis of Social Media Conversations
+🚀 DECODING EMOTIONS THROUGH SENTIMENT ANALYSIS OF SOCIAL MEDIA CONVERSATIONS
 
-This project leverages Natural Language Processing (NLP) to decode emotional signals from social media conversations. By analyzing public posts from platforms like Twitter or Reddit, the system can identify whether the sentiment expressed is Positive, Negative, or Neutral.
+This project leverages Natural Language Processing (NLP) to decode emotional signals from social media conversations. By analyzing public posts from platforms like Twitter, Reddit, or other forums, the system identifies whether the sentiment expressed is Positive, Negative, or Neutral.
 
-The core engine uses the VADER Sentiment Analyzer, with additional capabilities such as:
+The core engine uses the VADER Sentiment Analyzer, with added capabilities such as:
 
 Preprocessing unstructured text data
 
@@ -12,24 +12,58 @@ Visualizing emotion distribution
 
 Generating a project workflow flowchart
 
-📌 Features
+🛠 HOW TO RUN
 
-⚙ Clean, lowercase, and lemmatized text processing
+Install required libraries: pip install -r requirements.txt
 
-⚙ Emotion detection with compound scoring
+Run the main script: python emotion_analysis_bert_gui.py
 
-⚙ Visual analytics using Seaborn and Matplotlib
+📁 Project Structure
 
-⚙ Pipeline flowchart created with Graphviz
+emotion-analysis-project/ ├── emotion_analysis.py # Main Python script ├── social_media_posts.csv # Sample dataset ├── emotion_labeled_data.csv # Output with labeled emotions ├── README.md # Project overview ├── requirements.txt # Python dependencies ├── flowchart_pipeline.png # Pipeline flowchart ├── emotion_distribution.png # Emotion frequency chart
 
-👨‍💻 Applications
+📌 FEATURES
 
-⚙ Public sentiment monitoring
+Cleaned, normalized, and lemmatized text input
 
-⚙ Brand and campaign feedback analysis
+Emoji-aware emotion detection using VADER
 
-⚙ Mental health trend detection
+Visual analytics using Seaborn and Matplotlib
 
-👤 Author
+Pipeline flowchart generation with Graphviz
 
-Gopinath S — second Year artifical intellegence Data and Science Student
+Simple and clean GUI built with Tkinter
+
+⚙ REQUIREMENTS
+
+The following Python libraries are required:
+
+torch – for deep learning (BERT or model support)
+
+transformers – for pre-trained sentiment/emotion models
+
+tkinter – for GUI integration (comes with Python)
+
+matplotlib (optional) – for emotion distribution visualization
+
+To install all dependencies: pip install torch transformers matplotlib
+
+Note: tkinter is typically pre-installed in most Python distributions. If missing, install it based on your OS.
+
+📊 APPLICATIONS
+
+Public sentiment monitoring
+
+Brand and campaign feedback analysis
+
+Mental health signal tracking
+
+Real-time emotion dashboards
+
+👤 AUTHOR
+
+Gopinath S Second Year B.Tech – Artificial Intelligence and Data Science
+
+📄 LICENSE
+
+This project is intended for academic use only.
